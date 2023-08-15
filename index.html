@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arkham Asylum</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/img/logo.png">
+</head>
+<body>
+    <audio controls>
+        <source src="assets/audio/theme.mp3">
+    </audio>
+    <header>
+        <img class="logo" src="assets/img/logo.jpg" alt="logo do site">
+    </header>
+<main class="conteudo">
+    <div class="oculto">
+        <h2 class="identidade">Batman</h2>
+    <section class="container">  
+            <div class="personagem-imagem">
+                <img class="imga" src="assets/img/card_batman.png" alt="batman grande" id="personagem">
+            </div>
+            <div class="botoes">
+                <button class="bottom" onclick="proximoTut()">PRÓXIMO</button>
+            <div class="biografia">
+                <div class="tut1" style="z-index: 3" id="div">
+                    <h3>História</h3>
+                    <p class="informac"></p>
+                </div>
+                <div class="tut2" style="z-index: 2" id="div">
+                    <h3>fatos</h3>
+                    <h2 class="fact">nome verdadeiro</h2>
+                    <p id="realName"></p>
+                    <h2 class="fact">ocupação</h2>
+                    <p id="ocupation"></p>
+                    <h2 class="fact">base de operações</h2>
+                    <p id="baseOper"></p>
+                    <h2 class="fact">olhos</h2>
+                    <p id="olhos"></p>
+                    <h2 class="fact">cabelos</h2>
+                    <p id="cabelo"></p>
+                    <h2 class="fact">altura</h2>
+                    <p id="altura"></p>
+                    <h2 class="fact">peso</h2>
+                    <p id="peso"></p>
+                    <h2 class="fact">primeira aparição</h2>
+                    <p id="pApar"></p>
+                </div>
+                <div class="tut3" style="z-index: 1;" id="div">
+                    <h3>atributos</h3>
+                    <div class="arrow-list">
+                        <p id="info01"></p>
+                        <p id="info02"></p>
+                        <p id="info03"></p>
+                        <p id="info04"></p>
+                        <p id="info05"></p>
+                        <p id="info06"></p>
+                        <p id="info07"></p>
+                        <p id="info08"></p>
+                        <p id="info09"></p>
+                        <p id="info10"></p>
+                        <p id="info11"></p>
+                    </div>     
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+        
+    <section>
+        <ul class="personagens">
+            <li><img class="s" src="assets/img/card_batman.jpg" alt="batman" id="batman" data-name="batman" data-realName="Bruce Wayne" data-ocupation="Diretor Executivo/Filantropo" data-baseOp="Gotham City" data-olhos="Azuis" data-cabelo="Pretos" data-altura="1,88 m" data-peso="95 kg" data-apar="Detective Comics nº 27 (maio/1939)" data-description="Bruce Wayne resolveu livrar Gotham City dos criminosos que lhes tiraram a vida. Ele treinou para atingir a perfeição física e mental e dominar as artes marciais, técnicas de detetive e psicologia criminal. Vestido como morcego para atacar os medos dos criminosos, o Batman combate crimes com a ajuda de aparelhos e veículos especializados, operando a partir de sua Batcaverna secreta, abaixo da Mansão Wayne." info01="<li>Treinado ao ápice da condição física e mental</li>" info02="<li>Arsenal de aparelhos, veículos e tecnologia avançada</li>" info03="<li>Inventor, detetive, nível de inteligência de gênio</li>" info04="<li>Especilista na maioria das artes marciais conhecidas</li>" info05="<li>Treinado em todos os aspectos da criminologia</li>" info06="<li>Domínio das ciências físicas</li>" info07="<li>Especialista em computadores</li>" info08="<li>Mestre do disfarce</li>" info09="<li>Memória fotográfica</li>" info10="<li>Treinado em técnicas de furtividade e espionagem</li>" info11="<li>Experiente artista de fuga</li>"></li>
+
+            <li><img class="s" src="assets/img/card_catwoman.jpg" alt="catwoman" id="catwoman" data-name="Mulher-gato" data-realName="Selina Kyle" data-ocupation="Ladra profissional" data-baseOp="Gotham City" data-olhos="Verdes" data-cabelo="Pretos" data-altura="1,70 m" data-peso="57 kg" data-apar="Batman nº 1 (primavera/1940)" data-description="Órfã nas ruas cruéis de Gotham, Selina Kyle recorreu ao roubo para sobreviver. Determinada a fazer isso com estilo, ela aprendeu artes-marciais e ginástica. Seus crimes são temperados por um altruísmo relutante, tonando-a vilã inconstante e heroína ocasional. Ela mantém com Batman um relacionamento complicado e antagônico, que frequentemente se torna galanteador e ocasionalmente romântico." info01="<li>Ginasta e atleta treinada</li>" info02="<li>Especialista em combate corporal</li>" info03="<li>Muito habilidosa com seu chicote especial, um gato de nove caudas</li>" info04="<li>Capaz de uma furtividade surpreendente</li>" info05="<li>Obcecada por (e adepta de) roubar itens famosos e bem protegidos</li>" info06="<li>Atráida por temas felinos</li>"></li>
+
+            <li><img class="s" src="assets/img/card_duascaras.jpg" alt="duas caras" id="duascaras" data-name="duas caras" data-realName="Harvey Dent" data-ocupation="Criminoso profissional" data-baseOp="Gotham City" data-olhos="Azuis" data-cabelo="Castanhos/ Cinza" data-altura="1,83 m" data-peso="83 kg" data-apar="Detective Comics nº 66 (agosto/1942)" data-description='O promotor Harvey Dent era um dos maiores aliados do Batman em Gotham City, até que um criminoso lançou ácido em seu rosto, o desfigurando horrivelmente. Os ferimentos afetaram sua psique, e ele renasceu como Duas-Caras, gênio do crime esquizofrênico, obcecado com dualidade. Seu talismã, uma moeda de prata de "duas cabeças", foi danificada em um dos lados em um ataque, e Dent se apegou a ela como um reflexo de sua aparência semidesfigurada. Ele a lança para decidir o destino de suas vítimas.' info01="<li>Horrivelmente desfigurado no lado esquerdo do rosto, com o qual combina cada lado da roupa com estilos diferentes.</li>" info02="<li>Extremamente habilidoso com suas armas de preferência: duas .45 automáticas</li>" info03="<li>Obsessão psicótica com a dualidade, elaborando crimes envolvendo o número dois</li>" info04="<li>Delega escolhas de vida ou morte à sua moeda com um lado desfigurado</li>"></li>
+
+            <li><img class="s" src="assets/img/card_crocodilo.jpg" alt="crocodilo" id="crocodilo" data-name="crocodilo" data-realName="Waylon Jones" data-ocupation="Lutador, Gângster, Assasino" data-baseOp="Nômade" data-olhos="Amarelos" data-cabelo="Nenhum" data-altura="3,35 m" data-peso="263 kg" data-apar="Batman nº 357 (janeiro/1984)" data-description="Atormentado por uma condição genética que o transformou em uma criatura parecida com um crocodilo, Waylon Jones é um vilão com força e resistência sobre-humanas. Confinado aos esgotos de Gotham, ele emerge ocasionalmente para aterrorizar a cidade e saciar sua sede de vingança." info01="<li>O Crocodilo tem uma pele incrivelmente grossa, além de dentes e garras afiados</li>" info02="<li>Um lutador experiente, sua força e vigor estão em um nível quase sobre-humano</li>" info03="<li>Sentidos aguçados e reflexos extremamente rápidos</li>" info04="<li>Capaz de sobreviver debaixo d'água por períodos extensos de tempo</li>" info05="<li>Ódio itenso pela humanidade</li>"></li>
+
+            <li><img class="s" src="assets/img/card_mariposa.jpg" alt="mariposa" id="mariposa" data-name="mariposa assasina" data-realName="Drury Walker (Cameron Van Cleer)" data-ocupation="Criminoso profissional" data-baseOp="Gotham City" data-olhos="Castanhos" data-cabelo="Castanhos" data-altura="1,75 m" data-peso="70 kg" data-apar="Batman nº 63 (março/1951)" data-description="Como Mariposa-Assassina, o vilão Drury Walker utiliza sua tecnologia de traje com asas para cometer crimes e enfrentar Batman. Ao contrário de outros criminosos, ele busca se tornar uma espécie de ´anti-Batman´, protegendo criminosos de heróis como o Cavaleiro das Trevas." info01="<li>Obcecado com a fama e mudança de identidade</li>" info02="<li>Inventor habilidoso</li>" info03="<li>Amoral, levado por sentimentos de insegurança e inadequação a atividades criminosas na tentativa de obter notoriedade</li>"></li>
+
+            <li><img class="s" src="assets/img/card_harley.jpg" alt="arlequina" id="harley" data-name="arlequina" data-realName="Dra. Harleen Quinzel" data-ocupation="Criminosa profissional" data-baseOp="Gotham City" data-olhos="Azuis" data-cabelo="Loiros" data-altura="1,70 m" data-peso="64 kg" data-apar="Batman: Harley Quinn nº 1 (outubro/1999)" data-description="Psiquiatra do Asilo Arkham, designada para cuidar do Coringa, a Dra. Harleen Quinzel acabou ficando obcecada por seu paciente, acreditando estar apaixonada por ele. Ela o ajudou a fugir e assumir sua própria identidade criminosa: Arlequina, uma criminosa violenta e imprevisível cuja única motivação era conseguir a aprovação do Coringa. Com a natureza cruel e volátil dele, isso de certa forma a tornou mais uma de suas vítimas - ainda que muito perigosa." info01="<li>Força e resistência surpreendentes</li>" info02="<li>Impressionante habilidade em ginástica</li>" info03="<li>Desprezo total pela vida humana</li>" info04="<li>Como o Coringa, ela é uma homicida psicótica que foge a uma classificação fácil</li>"></li>
+
+            <li><img class="s" src="assets/img/card_coringa.jpg" alt="coringa" id="coringa" data-name="coringa" data-realName="Desconhecido" data-ocupation="Criminoso profissional" data-baseOp="Gotham City" data-olhos="Verdes" data-cabelo="Verdes" data-altura="1,83 m" data-peso="73 kg" data-apar="Batman nº 1 (primavera/1940)" data-description="Um supervilão insanamente homicida. A pele branca, cabelos verdes e lábios vermelhos do Coringa escondem sua natureza caótica sob uma aparência cartunesca. O autoproclamado Príncipe Palhaço do Crime não tem nenhum poder além da capacidade incrível para gerar violência e caos mortais. Ele frequentemente inventa esquemas elaborados para capturar seu arqui-inimigo, o Batman." info01="<li>Impiedoso maníaco homicida, embora sem um diagnóstico psicológico preciso</li>" info02="<li>Força surpreendente em combate corporal</li>" info03="<li>Passado desconhecido. Relatos conflitantes e não confirmados afirmam que ele foi um comediante fracassado, ladrão sem importância e pai de familia arruinado</li>" info04="<li>Emprega várias armas mortais, geralmente baseadas em brinquedos de pegadinhas</li>" info05="<li>Frequentemente usa uma toxina que contrai o rosto da vítima em um sorriso parecido com o seu e leva à morte</li>"></li>
+
+            <li><img class="s" src="assets/img/card_bane.jpg" alt="bane" id="bane" data-name="bane" data-realName="Desconhecido" data-ocupation="Criminoso profissional" data-baseOp="Gotham City" data-olhos="Castanhos (com Veneno: Verdes)" data-cabelo="Castanhos" data-altura="1,68 m (com Veneno: 2,79 m)" data-peso="64 kg (com Veneno: 159 kg)" data-apar="Batman: A Vingança de Bane nº 1 (janeiro/1993)" data-description="Preso desde o nascimento para servir a sentença do seu pai morto, Bane foi criado no ambiente horrendo de uma prisão em Santa Prisca. Cobaia de experimentos militares com o superesteróide experimental Veneno, sua força sobre-humana e sua vontade férrea o ajudaram a escapar. Determinado a construir um império criminoso, ele caçou Batman e quebrou a coluna do Cavaleiro das Trevas. Mas Batman se recuperou e conseguiu superar Bane, cortando seu precioso suprimento de Veneno." info01="<li>Mestre em estratégia</li>" info02="<li>Concentração intensa</li>" info03="<li>Reação excepcionalmente forte ao Veneno, dando-lhe habilidades físicas incrivelmente melhoradas</li>" info04="<li>Determinado a superar o Batman e todos que o desafiarem</li>"></li>
+
+            <li><img class="s" src="assets/img/card_victor.jpg" alt="victor" id="victor" data-name="victor zsasz" data-realName="Victor Zsasz" data-ocupation="Criminoso profissional" data-baseOp="Gotham City" data-olhos="Azuis" data-cabelo="Loiros" data-altura="1,73 m" data-peso="68 kg" data-apar="A Sombra do Batman nº 1 (junho/1992)" data-description="Victor Zsasz foi bem criado por sua família rica, que o tratava com amor e tinha orgulho de Victor, que sempre tirava boas notas na escola. Aos 25 anos de idade perdeu sua família em um acidente,  desde então, se viciou na jogatina, renegando seus negócios e perdendo toda a sua fortuna. Para Zsasz, sua vida não tinha mais propósitos, e começou a vagar pelas ruas sem objetivo, até que um dia um mendigo tentou roubá-lo usando uma faca. Zsasz conseguiu tirar-lhe a faca, e em seguida o matou. Naquele momento ele passou a sentir orgulho do que havia feito, e fez um corte em si mesmo para lembrar-se desse dia. Desde então, se viciou em matar outras pessoas, sempre se cortando para lembrar-se." info01="<li>Sociopata sem consideração pela vida humana</li>" info02="<li>Sem padrão de matança, o que o torna difícil de rastrear</li>" info03="<li>Necessidade compulsiva de matar outras pessoas</li>"></li>
+
+            <li><img class="s" src="assets/img/card_ras.jpg" alt="ras al ghul" id="ras" data-name="Ra's al Ghul" data-realName="Desconhecido" data-ocupation="Terrorista internacional" data-baseOp="Nômade" data-olhos="Verdes" data-cabelo="Grisalhos com mechas brancas" data-altura="1,90 m" data-peso="95 kg" data-apar="Batman nº 232 (junho/1971)" data-description="Líder da Liga dos Assassinos, Ra's al Ghul é imortal graças ao Poço de Lázaro. Com sua sabedoria e recursos centenários, ele busca purificar a humanidade através da destruição e renascimento, considerando Batman como um possível sucessor." info01="<li>Gênio e estrategista</li>" info02="<li>Força e resistência superiores</li>" info03="<li>Soberbo no combate corporal, treinado durante milênios</li>" info04="<li>Quase imortal, graças aos seus Poços de Lázaro</li>" info05="<li>Comanda uma legião de seguidores dedicados a realizar sua visão de um paraíso terreno</li>"></li>
+
+            <li><img class="s" src="assets/img/card_hush.jpg" alt="silencio" id="hush" data-name="silêncio" data-realName=' Thomas "Tommy" Elliot' data-ocupation="Cirurgião" data-baseOp="Gotham City" data-olhos="Castanhos" data-cabelo="Castanho-avermelhados" data-altura="1,90 m" data-peso="102 kg" data-apar="Batman nº 609 (janeiro/2003)" data-description="Conhecido como Silêncio, Tommy Elliot é um cirurgião brilhante e um dos principais inimigos de Batman. Ele utiliza bandagens envolvendo seu rosto e um ressentimento pessoal contra Bruce Wayne, tornando-se uma ameaça calculista para o Cavaleiro das Trevas." info01="<li>Grande força física, aumentada pelo ódio por Bruce Wayne</li>" info02="<li>Cirurgião de renome mundial, capaz de descobertas médicas extraordinárias</li>" info03="<li>Mestre do disfarce</li>" info04="<li>Determinado a destruir Bruce Wayne</li>"></li>
+
+            <li><img class="s" src="assets/img/card_frio.jpg" alt="senhor frio" id="frio" data-name="sr. frio" data-realName="Dr. Victor Fries" data-ocupation="Criminoso profissional" data-baseOp="Gotham City" data-olhos="Azuis" data-cabelo="Nenhum" data-altura="1,83 m" data-peso="86 kg" data-apar="Batman nº 121 (fevereiro/1959)" data-description="Victor Fries era um brilhante criogenista, cuja amada esposa, Nora, foi afligida por uma doença degenerativa fatal. Ele a colocou em animação suspensa enquanto procurava obsessivamente por uma cura. Mas a corporação que mantinha sua pesquisa, e a vida de Nora, desativou seus experimentos, provocando um acidente que transformou o corpo de Fries em uma forma de vida de sangue frio que deve sempre ser mantida abaixo de zero grau. Em temperatura ambiente, ele morre. Portanto várias armas congelantes, ele usa uma armadura protetora na busca de reviver a esposa e vingar seu destino, pelo qual ele, em parte, responsabiliza o Batman." info01="<li>Gênio científico, especializado em criogenia</li>" info02="<li>Emprega uma ampla gama de crioarmamentos</li>" info03="<li>Seu corpo foi alterado permanentemente para sobreviver em um estado de subcongelamento</li>" info04="<li>Usa blindagem protetora e congelante sempre que está longe de um clima abaixo de zero</li>" info05="<li>Motivado pelo pesar e raiva quanto ao destino de sua esposa Nora</li>"></li>
+
+            <li><img class="s" src="assets/img/card_scarecrow.jpg" alt="espantalho" id="scarecrow" data-name="espantalho" data-realName="Jonathan Crane" data-ocupation="Criminoso profissional" data-baseOp="Gotham City" data-olhos="Azuis" data-cabelo="Castanhos" data-altura="1,83 m" data-peso="64 kg" data-apar="World's Finest Comics nº 3 (outono/1941)" data-description="Autoproclamado Mestre do Medo, o Dr. Jonathan Crane é um ex-psiquiatra obsessivo e enlouquecido que usa uma combinação de drogas experimentais e táticas psicológicas para explorar os medos e fobias de suas vítimas. A exposição prolongada à sua própria toxina deixou o Espantalho incapaz de experimentar o medo que ele anseia tão desesperadamente. A única pessoa que ainda pode causar terror no Espantalho é o Batman." info01="<li>Mestre da psicologia e da química</li>" info02="<li>Criador de gás do medo</li>" info03="<li>Motivado por uma necessidade obsessiva de causar medo nos outros</li>"></li>
+
+            <li><img class="s" src="assets/img/card_riddler.jpg" alt="charada" id="riddler" data-name="charada" data-realName="Eddie Nashton (Edward Nigma)" data-ocupation="Criminoso profissional" data-baseOp="Gotham City" data-olhos="Azuis" data-cabelo="Castanhos" data-altura="1,85 m" data-peso="83 kg" data-apar="Detective Comics nº 140 (outubro/1948)" data-description="Edward Nygma é um gênio obcecado por jogos mentais e enigmas. Como o Charada, ele desafia Batman e a polícia com charadas complexas e elaborados que testam suas habilidades de detetive e inteligência." info01="<li>Intelecto genial</li>" info02="<li>Movido pela necessidade de testar sua esperteza contra as forças da lei deixando pistas de seus crimes</li>" info03="<li>Necessidade compulsiva de atenção</li>"></li>
+
+            <li><img class="s" src="assets/img/card_ivy.jpg" alt="hera venenosa" id="ivy" data-name="hera venenosa" data-realName="Pamela Lillian Isley" data-ocupation="Criminosa profissional" data-baseOp="Gotham City" data-olhos="Verdes" data-cabelo="Ruivos" data-altura="1,73 m" data-peso="52 kg" data-apar="Batman nº 181 (junho/1966)" data-description="Pamela Isley possui habilidades de controlar plantas e usa sua conexão com a natureza para combater os que ameaçam o meio ambiente. Ela é conhecida como Hera-Venenosa, uma vilã sedutora e perigosa que usa suas habilidades botânicas para alcançar seus objetivos." info01="<li>Capacidade de estimular e comandar o crescimento de vegetais</li>" info02="<li>Genes de plantas misturados ao seu DNA fazem dela uma adversária imprevisível e formidável</li>" info03="<li>Exala feromônios naturais que permitem exercer controle sobre suas vítimias</li>" info04="<li>A pela secreta uma toxina que pode toranr seu toque mortal</li>" info05="<li>Desejo patológico de livrar o mundo da humanidade e torná-lo mais seguro para a flora</li>"></li>
+
+            <li><img class="s" src="assets/img/card_caradebarro.jpg" alt="cara de barro" id="caradebarro" data-name="cara de barro" data-realName="Basil Karlo" data-ocupation="Criminoso profissional" data-baseOp="Gotham City" data-olhos="Vermelhos" data-cabelo="Nenhum" data-altura="1,96 m" data-peso="120 kg" data-apar="Detective Comics nº 40 (junho/1940)" data-description="Inicialmente um ator de filmes de terror, Karlo enlouqueceu quando descobrio que um de seus filmes clássicos seria refeito por um ator diferente no papel principal. Ele vestiu a máscara do vilão do filme, Cara-de-Barro, e matou várias pessoas do elenco e da equipe do filme até ser detido pro Batman e Robin. Mais tarde, Karlo se juntou à Quadra de Lama, uma aliança de vilões que mudam de forma e, posteriormente, usaram o nome Cara-de-Barro. Embora esse grupo tenha sido derrotado, Karlo enganou seus aliados e se injetou com a essência de vários deles, tornando-se um super-humano capaz de mudar de forma, transformar outros em protoplasma com um toque e imitar os poderes de heróis e vilões que copia." info01="<li>Pode alterar sua forma física, adotando a aparência de praticamente qualquer um</li>" info02="<li>Sua forma física maleável torna-o extremamente difícil de ferir ou conter</li>" info03="<li>Seu toque pode ser venenoso</li>"></li>
+        </ul>
+    </section>
+
+    <div class="final oculto" >
+        <h3>contatos</h3>
+     <div>
+        <a href="https://www.instagram.com/leannul/"><img src="assets/icons/instagram.png" alt="meu instagram"></a>
+        <a href="https://github.com/RLeanF"><img src="assets/icons/github.png" alt="meu github"></a>
+    </div> 
+</div>
+</main>
+    <script src="assets/java/code.js"></script> 
+</body>
+</html>

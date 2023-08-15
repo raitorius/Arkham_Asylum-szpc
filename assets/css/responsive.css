@@ -1,0 +1,34 @@
+/* Estilos para a seção de biografia */
+@media (max-width: 912px) {
+.biografia {
+    max-width: calc(100% - 600px); /* Largura máxima, considerando a imagem */
+    padding-left: 680px; /* Adicionando um espaço à esquerda para separar a biografia da imagem */
+    text-align: left; /* Alinhando o texto à esquerda */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Estilos para a imagem do personagem */
+.personagem-imagem {
+    display: flex;
+    justify-content: flex-start; /* Alinhando a imagem à esquerda */
+    gap: 0; /* Espaço entre a imagem e a biografia */
+    height: 600px;
+    width: 500px;
+    padding-right: 100px;
+}
+
+.personagem-imagem img {
+    height: 500px;
+    width: 500px;
+}
+.identidade{
+    padding-left: 550px;
+}
+.final div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}

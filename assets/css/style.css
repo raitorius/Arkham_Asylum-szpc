@@ -1,0 +1,199 @@
+
+body{
+    background-color: black;
+}
+
+.bottom{
+    color: orange;
+    font-family: 'Oswald';
+    align-self: flex-end;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.informac{
+    max-width: 550px;
+}
+.hidden{
+    display: none;
+}
+p{
+    color: white;
+    font-size: 23px;
+    margin: 20px 0px 0px 0px;
+}
+h2{
+    color: orange;
+    text-transform: uppercase;
+    margin: 0px 0px 0px 0px;
+    font-size: 25px;
+}
+h3{
+    color: white;
+    text-transform: uppercase;
+    padding-left: 10px;
+    font-size: 30px;
+    font-family: 'Oswald';
+    margin: 0;
+    letter-spacing: 4px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.logo{
+    height: 200px;
+}
+.conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.personagens{
+    width: 100%;
+}
+
+div .tut2 p{
+    padding-left: 10px;
+}
+
+div .tut2 h2{
+    padding-left: 10px;
+}
+
+.identidade{
+    font-family: 'Oswald';
+    border-bottom: 2px white solid;
+    border-top: 2px white solid;
+    margin-bottom: 15px;
+    padding: 25px 25px 25px 300px;
+    width: calc(30% + 20%);
+    letter-spacing: 2px;
+}
+
+.imga{
+    height: 750px;
+    width: 550px;
+    padding: 30px 100px 10px 50px;
+    transform: rotate(5deg);
+    filter: brightness(70%) contrast(280%);
+}
+
+.fact{
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    width: 550px;
+    margin-bottom: -20px;
+}
+
+.tut1, .tut2, .tut3{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid white;
+    position: absolute;
+    width: 580px;
+    height: 600px;
+}
+
+.tut1{
+    top: 500px;
+    transform: rotate(1deg);
+}
+.tut2{
+    top: 440px;
+    transform: rotate(-1deg);
+}
+.tut3{
+   top: 400px;
+}
+
+.arrow-list{
+    max-height: 550px; 
+    overflow: auto; 
+    list-style: none;
+}
+.arrow-list li:before {
+    content: "➤";
+    margin: 10px;
+    color: orange;
+    font-size: 30px;
+}
+
+.arrow-list::-webkit-scrollbar {
+    width: 12px;
+}
+
+.arrow-list::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+.arrow-list::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 6px; 
+}
+
+.arrow-list::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+.arrow-list p{
+    list-style: none;
+    color: white;
+    font-size: 30px;
+    margin: 0;
+}
+  
+.biografia {
+    max-width: 500px;
+    max-height: 500px;
+    padding-right: 550px;
+}
+
+.personagem-imagem{
+    transform: rotate(-5deg);
+    z-index: -2;
+    max-width: 100vh;
+    background-color: white;
+}
+.personagens{
+    display: flex;
+    max-width: 900px;
+    list-style: none;
+    padding: 35px;
+    flex-wrap: wrap;
+    gap: 6px;
+    background-color: white;
+    transform: rotate(-5deg);
+    margin-top: 100px;
+    filter: grayscale(100%);
+}
+
+.final{
+    width: 100vh;
+    height: 30px;
+    padding: 100px;
+    flex-direction: column;
+    margin-top: 500px;
+    border: red 3px dashed;
+    background-color: #131313;
+}
+.final img{
+    height: 100px;
+    margin: 50px 100px 0px 0px;
+    width: 100px;
+}
+.final h3{
+    text-align: center;
+    margin-top: -100px;
+    border-bottom: 1px white solid;
+}
